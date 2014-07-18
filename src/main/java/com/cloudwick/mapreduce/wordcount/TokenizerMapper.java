@@ -1,4 +1,4 @@
-package com.cloudwick.mapreduce;
+package com.cloudwick.mapreduce.wordcount;
 
 import java.io.IOException;
 import java.util.StringTokenizer;

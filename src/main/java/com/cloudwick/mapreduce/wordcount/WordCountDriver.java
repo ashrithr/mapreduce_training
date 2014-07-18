@@ -1,4 +1,4 @@
-package com.cloudwick.mapreduce;
+package com.cloudwick.mapreduce.wordcount;
 
 /**
  * Description goes here
