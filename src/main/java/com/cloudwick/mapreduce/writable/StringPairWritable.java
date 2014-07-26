@@ -15,7 +15,6 @@ public class StringPairWritable implements WritableComparable<StringPairWritable
      * Empty constructor - required for serialization.
      */
     public StringPairWritable() {
-
     }
 
     /**
