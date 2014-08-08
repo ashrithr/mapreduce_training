@@ -22,6 +22,12 @@
     </dependency>
 
     <dependency>
+      <groupId>com.maxmind.geoip</groupId>
+      <artifactId>geoip-api</artifactId>
+      <version>1.2.14</version>
+    </dependency>
+
+    <dependency>
       <groupId>org.apache.mrunit</groupId>
       <artifactId>mrunit</artifactId>
       <version>1.1.0</version>
@@ -44,11 +50,18 @@
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
           <descriptorRefs>
-            <descriptorRef>
-              jar-with-dependencies
-            </descriptorRef>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
         </configuration>
+        <executions>
+          <execution>
+            <id>assemble-all</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
