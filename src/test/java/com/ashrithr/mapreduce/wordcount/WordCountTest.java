@@ -1,11 +1,9 @@
-package com.cloudwick.mapreduce.wordcount;
+package com.ashrithr.mapreduce.wordcount;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.cloudwick.mapreduce.wordcount.IntSumReducer;
-import com.cloudwick.mapreduce.wordcount.TokenizerMapper;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;

@@ -1,4 +1,4 @@
-package com.cloudwick.mapreduce.outputformat;
+package com.ashrithr.mapreduce.outputformat;
 
 import java.io.DataOutputStream;
 import java.io.IOException;

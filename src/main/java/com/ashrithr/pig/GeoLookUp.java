@@ -1,4 +1,4 @@
-package com.cloudwick.pig;
+package com.ashrithr.pig;
 
 import com.maxmind.geoip.LookupService;
 import org.apache.pig.EvalFunc;

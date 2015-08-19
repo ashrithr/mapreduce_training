@@ -1,10 +1,26 @@
-MapReduce Word Count Example with MRUnit Tests
+# MapReduce Training
 
-**Packaing** (from root of project)
+This repository is collection of MapReduce and Hadoop eco-system related programs:
+
+1. MapReduce WordCount application with MRUnit tests
+2. MapReduce custom Writable implementation for String pair's
+3. MapReduce custom InputFormat and RecordReader implementation
+4. MapReduce custom OutputFormat and RecordWriter implementation
+5. Pig custom LoadFunc to load and parse apache http log events
+6. Pig custom EvalFunc to transform IP addresses to location using MaxMind GEO API
+
+Also, look into [MapReduce Joins](https://github.com/ashrithr/mapreduce_joins) on how to implement
+MapReduce joins.
+ 
+### Packaging repository
+
+From root of this project run:
 
 ```
 mvn package
 ```
+
+### Running
 
 **Executing WordCount**
 
@@ -32,7 +48,7 @@ hadoop jar mapreduce_cwt-1.0-SNAPSHOT.jar com.cloudwick.mapreduce.wordcount.Word
     fw_output
   ```
 
-**Execution Custom OutputFormat**
+**Executing Custom OutputFormat**
 
   ```
   hadoop jar mapreduce_cwt-1.0-SNAPSHOT.jar com.cloudwick.mapreduce.outputformat.FixedWidthColumnTextDriver \

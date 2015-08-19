@@ -1,4 +1,4 @@
-package com.cloudwick.pig;
+package com.ashrithr.pig;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

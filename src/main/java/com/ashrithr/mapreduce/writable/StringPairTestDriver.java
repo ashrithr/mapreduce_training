@@ -1,4 +1,4 @@
-package com.cloudwick.mapreduce.writable;
+package com.ashrithr.mapreduce.writable;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;

@@ -1,4 +1,4 @@
-package com.cloudwick.mapreduce.inputformat;
+package com.ashrithr.mapreduce.inputformat;
 
 import java.io.IOException;
 import org.apache.hadoop.conf.Configuration;

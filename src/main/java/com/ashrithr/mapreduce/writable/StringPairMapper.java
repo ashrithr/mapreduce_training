@@ -1,4 +1,4 @@
-package com.cloudwick.mapreduce.writable;
+package com.ashrithr.mapreduce.writable;
 
 import java.io.IOException;
 
